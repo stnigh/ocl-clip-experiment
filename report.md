@@ -1,6 +1,6 @@
 # OCL 对象概念学习推理实验报告
 
-## 1. 具体实现
+## 一. 具体实现
 
 ### 1.1 实验环境
 
@@ -13,7 +13,6 @@
 | GPU | NVIDIA GeForce RTX 4060 Laptop GPU，8GB |
 | CLIP | OpenAI CLIP 1.0，ViT-B/16 |
 
-实验只使用预训练 CLIP 进行推理，不训练或微调模型。
 
 ### 1.2 数据处理
 
@@ -48,7 +47,7 @@ banana, motorcycle, truck, zebra, sheep
 
 ### 1.3 模型调用
 
-课程 Step 2 要求使用 available API 加载预训练 CLIP，并引用 OpenAI CLIP 官方仓库。课程没有另外提供接口地址、Token 或私有 SDK，因此实验使用 OpenAI CLIP 官方 Python API：
+测试文档中，Step 2 要求使用 available API 加载预训练 CLIP，并引用 OpenAI CLIP 官方仓库。我没有找打另外提供的接口地址，因此实验中使用的是 OpenAI CLIP 官方 Python API：
 
 ```python
 model, preprocess = clip.load(
@@ -66,7 +65,7 @@ for parameter in model.parameters():
     parameter.requires_grad = False
 ```
 
-模型参数全部冻结，不定义优化器和损失函数。
+依据测验，模型参数全部冻结，不定义优化器和损失函数。
 
 ### 1.4 推理流程
 
@@ -118,9 +117,10 @@ mAP = np.nanmean(AP) * 100
 
 没有正样本的标签不参与 mAP 平均。最终属性使用 95 个有效标签，可供性使用 164 个有效标签。
 
-## 2. 实验结果
+## 二. 实验结果
 
 ### 2.1 类别分类
+按指标：
 
 | 指标 | 正确对象 | 总对象 | 准确率 |
 |---|---:|---:|---:|
@@ -143,11 +143,12 @@ mAP = np.nanmean(AP) * 100
 | 属性 | 95 | 114 | 11.97% |
 | 可供性 | 164 | 170 | 28.61% |
 
-属性 mAP 较低，主要因为属性更细粒度，且当前使用固定正负文本 prompt 进行 zero-shot 打分。可供性类别相对集中，因此 mAP 较高。
+属性 mAP 较低，主要因为属性更细粒度，且当前使用固定正负文本 prompt 进行 zero-shot 打分。
+而可供性类别相对集中，因此 mAP 较高。
 
 ### 2.3 结果分析
 
-Top-3 和 Top-5 分别达到 98.15% 和 99.25%，说明正确类别通常能在候选排序中进入前列。Top-1 的主要错误集中在相似类别：
+Top-3 和 Top-5 分别达到 98.15% 和 99.25%，说明正确类别通常能在候选排序中进入前列。同时，Top-1 的主要错误集中在相似类别：
 
 | 真实类别 | 预测类别 | 次数 |
 |---|---|---:|
@@ -160,9 +161,9 @@ Top-3 和 Top-5 分别达到 98.15% 和 99.25%，说明正确类别通常能在�
 | dog | sheep | 84 |
 | sheep | dog | 82 |
 
-与论文 Table 2 相比，本实验属性 mAP 为 11.97，可供性 mAP 为 28.61；论文 Vanilla CLIP 分别为 23.6 和 49.6，OCRN 分别为 31.6 和 53.3。论文中的 Vanilla CLIP 是在 OCL 上训练的，而本实验使用完全冻结的预训练 CLIP 并只保留 Top-10 子集，因此绝对数值不能直接视为论文复现。本实验和论文都呈现“可供性 mAP 高于属性 mAP”的趋势。
+与论文 Table 2 相比，本实验属性 mAP 为 11.97，可供性 mAP 为 28.61，而论文 Vanilla CLIP 分别为 23.6 和 49.6，OCRN 分别为 31.6 和 53.3。分析可知，这是因为论文中的 Vanilla CLIP 是在 OCL 上训练的，而本实验使用完全冻结的预训练 CLIP 并只保留 Top-10 子集。但是本实验和论文的数据都表明可供性 mAP 高于属性 mAP。
 
-## 3. 遇到的问题
+## 三. 遇到的问题
 
 ### 问题一：环境配置
 
