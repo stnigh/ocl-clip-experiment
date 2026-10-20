@@ -1,0 +1,352 @@
+{
+  "objects": 22074,
+  "by_source": {
+    "COCO": {
+      "objects": 19003,
+      "top1": 0.8977529863705731,
+      "top3": 0.9830553070567805,
+      "top5": 0.9930537283586802,
+      "correct_top1": 17060,
+      "correct_top3": 18681,
+      "correct_top5": 18871
+    },
+    "ImageNet": {
+      "objects": 1016,
+      "top1": 0.8139763779527559,
+      "top3": 0.9389763779527559,
+      "top5": 0.9763779527559056,
+      "correct_top1": 827,
+      "correct_top3": 954,
+      "correct_top5": 992
+    },
+    "from_web": {
+      "objects": 2055,
+      "top1": 0.9527980535279805,
+      "top3": 0.9883211678832117,
+      "top5": 0.9951338199513382,
+      "correct_top1": 1958,
+      "correct_top3": 2031,
+      "correct_top5": 2045
+    }
+  },
+  "by_split": {
+    "test": {
+      "objects": 11232,
+      "top1": 0.8911146723646723,
+      "top3": 0.9794337606837606,
+      "top5": 0.9923433048433048,
+      "correct_top1": 10009,
+      "correct_top3": 11001,
+      "correct_top5": 11146
+    },
+    "val": {
+      "objects": 10842,
+      "top1": 0.9072126913853532,
+      "top3": 0.9836745987825124,
+      "top5": 0.9926212875853163,
+      "correct_top1": 9836,
+      "correct_top3": 10665,
+      "correct_top5": 10762
+    }
+  },
+  "by_source_split": {
+    "COCO/test": {
+      "objects": 10108,
+      "top1": 0.8915710328452711,
+      "top3": 0.981203007518797,
+      "top5": 0.9928769291650178,
+      "correct_top1": 9012,
+      "correct_top3": 9918,
+      "correct_top5": 10036
+    },
+    "COCO/val": {
+      "objects": 8895,
+      "top1": 0.9047779651489601,
+      "top3": 0.9851602023608769,
+      "top5": 0.9932546374367622,
+      "correct_top1": 8048,
+      "correct_top3": 8763,
+      "correct_top5": 8835
+    },
+    "ImageNet/test": {
+      "objects": 361,
+      "top1": 0.7867036011080333,
+      "top3": 0.9307479224376731,
+      "top5": 0.9833795013850416,
+      "correct_top1": 284,
+      "correct_top3": 336,
+      "correct_top5": 355
+    },
+    "ImageNet/val": {
+      "objects": 655,
+      "top1": 0.8290076335877863,
+      "top3": 0.9435114503816794,
+      "top5": 0.9725190839694656,
+      "correct_top1": 543,
+      "correct_top3": 618,
+      "correct_top5": 637
+    },
+    "from_web/test": {
+      "objects": 763,
+      "top1": 0.9344692005242464,
+      "top3": 0.9790301441677588,
+      "top5": 0.9895150720838795,
+      "correct_top1": 713,
+      "correct_top3": 747,
+      "correct_top5": 755
+    },
+    "from_web/val": {
+      "objects": 1292,
+      "top1": 0.9636222910216719,
+      "top3": 0.9938080495356038,
+      "top5": 0.9984520123839009,
+      "correct_top1": 1245,
+      "correct_top3": 1284,
+      "correct_top5": 1290
+    }
+  },
+  "by_class": {
+    "car": {
+      "objects": 3043,
+      "top1": 0.7916529740387775,
+      "top3": 0.9809398619783108,
+      "top5": 0.9927702924745317,
+      "correct_top1": 2409,
+      "correct_top3": 2985,
+      "correct_top5": 3021
+    },
+    "broccoli": {
+      "objects": 2536,
+      "top1": 0.9783123028391167,
+      "top3": 0.9952681388012619,
+      "top5": 0.998422712933754,
+      "correct_top1": 2481,
+      "correct_top3": 2524,
+      "correct_top5": 2532
+    },
+    "boat": {
+      "objects": 2438,
+      "top1": 0.8843314191960624,
+      "top3": 0.9659557013945858,
+      "top5": 0.9856439704675964,
+      "correct_top1": 2156,
+      "correct_top3": 2355,
+      "correct_top5": 2403
+    },
+    "horse": {
+      "objects": 2351,
+      "top1": 0.9361973628243301,
+      "top3": 0.9846873670778392,
+      "top5": 0.994470438111442,
+      "correct_top1": 2201,
+      "correct_top3": 2315,
+      "correct_top5": 2338
+    },
+    "dog": {
+      "objects": 2059,
+      "top1": 0.9062651772705197,
+      "top3": 0.9825157843613405,
+      "top5": 0.9956289460903351,
+      "correct_top1": 1866,
+      "correct_top3": 2023,
+      "correct_top5": 2050
+    },
+    "banana": {
+      "objects": 2040,
+      "top1": 0.9446078431372549,
+      "top3": 0.9838235294117647,
+      "top5": 0.990686274509804,
+      "correct_top1": 1927,
+      "correct_top3": 2007,
+      "correct_top5": 2021
+    },
+    "motorcycle": {
+      "objects": 2018,
+      "top1": 0.9350842418235877,
+      "top3": 0.9861248761149654,
+      "top5": 0.9950445986124876,
+      "correct_top1": 1887,
+      "correct_top3": 1990,
+      "correct_top5": 2008
+    },
+    "truck": {
+      "objects": 1978,
+      "top1": 0.7997977755308392,
+      "top3": 0.980788675429727,
+      "top5": 0.993933265925177,
+      "correct_top1": 1582,
+      "correct_top3": 1940,
+      "correct_top5": 1966
+    },
+    "sheep": {
+      "objects": 1835,
+      "top1": 0.8817438692098093,
+      "top3": 0.9705722070844687,
+      "top5": 0.9852861035422343,
+      "correct_top1": 1618,
+      "correct_top3": 1781,
+      "correct_top5": 1808
+    },
+    "zebra": {
+      "objects": 1776,
+      "top1": 0.9673423423423423,
+      "top3": 0.9831081081081081,
+      "top5": 0.9915540540540541,
+      "correct_top1": 1718,
+      "correct_top3": 1746,
+      "correct_top5": 1761
+    }
+  },
+  "top_confusions": [
+    {
+      "true": "car",
+      "predicted": "truck",
+      "count": 375
+    },
+    {
+      "true": "truck",
+      "predicted": "car",
+      "count": 274
+    },
+    {
+      "true": "boat",
+      "predicted": "car",
+      "count": 110
+    },
+    {
+      "true": "motorcycle",
+      "predicted": "car",
+      "count": 91
+    },
+    {
+      "true": "car",
+      "predicted": "motorcycle",
+      "count": 91
+    },
+    {
+      "true": "boat",
+      "predicted": "truck",
+      "count": 87
+    },
+    {
+      "true": "dog",
+      "predicted": "sheep",
+      "count": 84
+    },
+    {
+      "true": "sheep",
+      "predicted": "horse",
+      "count": 82
+    },
+    {
+      "true": "sheep",
+      "predicted": "dog",
+      "count": 82
+    },
+    {
+      "true": "banana",
+      "predicted": "broccoli",
+      "count": 56
+    },
+    {
+      "true": "car",
+      "predicted": "dog",
+      "count": 56
+    },
+    {
+      "true": "horse",
+      "predicted": "dog",
+      "count": 54
+    },
+    {
+      "true": "dog",
+      "predicted": "horse",
+      "count": 50
+    },
+    {
+      "true": "car",
+      "predicted": "boat",
+      "count": 45
+    },
+    {
+      "true": "truck",
+      "predicted": "motorcycle",
+      "count": 37
+    },
+    {
+      "true": "broccoli",
+      "predicted": "banana",
+      "count": 32
+    },
+    {
+      "true": "horse",
+      "predicted": "sheep",
+      "count": 28
+    },
+    {
+      "true": "banana",
+      "predicted": "sheep",
+      "count": 27
+    },
+    {
+      "true": "truck",
+      "predicted": "boat",
+      "count": 27
+    },
+    {
+      "true": "zebra",
+      "predicted": "horse",
+      "count": 26
+    },
+    {
+      "true": "car",
+      "predicted": "horse",
+      "count": 25
+    },
+    {
+      "true": "boat",
+      "predicted": "dog",
+      "count": 22
+    },
+    {
+      "true": "truck",
+      "predicted": "horse",
+      "count": 22
+    },
+    {
+      "true": "horse",
+      "predicted": "motorcycle",
+      "count": 21
+    },
+    {
+      "true": "boat",
+      "predicted": "banana",
+      "count": 21
+    },
+    {
+      "true": "truck",
+      "predicted": "dog",
+      "count": 21
+    },
+    {
+      "true": "horse",
+      "predicted": "banana",
+      "count": 19
+    },
+    {
+      "true": "sheep",
+      "predicted": "broccoli",
+      "count": 16
+    },
+    {
+      "true": "car",
+      "predicted": "banana",
+      "count": 15
+    },
+    {
+      "true": "sheep",
+      "predicted": "car",
+      "count": 13
+    }
+  ]
+}

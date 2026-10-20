@@ -1,0 +1,27 @@
+{
+  "model": {
+    "model_name": "ViT-B/16",
+    "device": "cuda",
+    "feature_dim": 512,
+    "input_resolution": 224,
+    "parameters": 149620737
+  },
+  "limit": 10138,
+  "sampled_images": 10138,
+  "sampled_objects": 22074,
+  "source_counts": {
+    "COCO": 7896,
+    "ImageNet": 930,
+    "from_web": 1312
+  },
+  "split_counts": {
+    "test": 4066,
+    "val": 6072
+  },
+  "top1_accuracy": 0.8990214732264202,
+  "top3_accuracy": 0.9815167164990487,
+  "top5_accuracy": 0.9924798405363776,
+  "correct_top1": 19845,
+  "correct_top3": 21666,
+  "correct_top5": 21908
+}

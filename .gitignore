@@ -8,11 +8,22 @@ data/aPY
 data/SUN
 data/from_web
 data/ImageNet
+data/COCO
 data/SUN
 logs
 weights
 features
 data_packed
+
+# Locally downloaded and generated experiment artifacts
+data/resources/OCL_annot_*.pkl
+outputs/*predictions.jsonl
+outputs/*.npz
+outputs/*smoke*.json
+*.pt
+*.pth
+*.bin
+*.safetensors
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

@@ -1,0 +1,22 @@
+{
+  "model_name": "ViT-B/16",
+  "device": "cuda",
+  "batch_size": 4,
+  "limit": 10138,
+  "num_workers": 0,
+  "usable_manifest": "C:\\Users\\17031\\Desktop\\OCL_Workspace\\manifests\\OCL_valtest_top10_usable_files.txt",
+  "data_root": "E:\\OCL_Data\\datasets",
+  "class_map": "outputs/class_map.json",
+  "class_names": [
+    "car",
+    "broccoli",
+    "boat",
+    "horse",
+    "dog",
+    "banana",
+    "motorcycle",
+    "truck",
+    "zebra",
+    "sheep"
+  ]
+}

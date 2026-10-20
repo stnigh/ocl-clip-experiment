@@ -1,0 +1,259 @@
+{
+  "model": {
+    "model_name": "ViT-B/16",
+    "device": "cuda",
+    "feature_dim": 512,
+    "input_resolution": 224,
+    "parameters": 149620737
+  },
+  "images": 10138,
+  "objects": 22074,
+  "score_method": "positive_minus_negative_cosine",
+  "attributes": {
+    "mean_ap": 11.974720437653847,
+    "valid_labels": 95,
+    "total_labels": 114,
+    "lowest": [
+      {
+        "id": 101,
+        "label": "hanging",
+        "ap": 0.0058014735742878696
+      },
+      {
+        "id": 72,
+        "label": "bent",
+        "ap": 0.007265478907525
+      },
+      {
+        "id": 56,
+        "label": "bipedal",
+        "ap": 0.016262108783702076
+      },
+      {
+        "id": 91,
+        "label": "checkered",
+        "ap": 0.023658272467449882
+      },
+      {
+        "id": 84,
+        "label": "glass",
+        "ap": 0.032938313476839565
+      },
+      {
+        "id": 104,
+        "label": "sleeping",
+        "ap": 0.05126515094380735
+      },
+      {
+        "id": 61,
+        "label": "digital",
+        "ap": 0.08123687494030922
+      },
+      {
+        "id": 23,
+        "label": "horn",
+        "ap": 0.09178226906111735
+      },
+      {
+        "id": 102,
+        "label": "sitting",
+        "ap": 0.10851781731235687
+      },
+      {
+        "id": 97,
+        "label": "framed",
+        "ap": 0.13535625835330936
+      }
+    ],
+    "highest": [
+      {
+        "id": 37,
+        "label": "quadruped",
+        "ap": 77.80186998676517
+      },
+      {
+        "id": 67,
+        "label": "metal",
+        "ap": 68.48618065238314
+      },
+      {
+        "id": 10,
+        "label": "striped",
+        "ap": 67.08137553285715
+      },
+      {
+        "id": 92,
+        "label": "parked",
+        "ap": 59.52134534808076
+      },
+      {
+        "id": 76,
+        "label": "narrow",
+        "ap": 51.278598481113015
+      },
+      {
+        "id": 93,
+        "label": "moving",
+        "ap": 44.47172902357019
+      },
+      {
+        "id": 21,
+        "label": "fluffy",
+        "ap": 32.81511862300404
+      },
+      {
+        "id": 100,
+        "label": "standing",
+        "ap": 31.558686686437166
+      },
+      {
+        "id": 4,
+        "label": "furry",
+        "ap": 30.985878239300153
+      },
+      {
+        "id": 64,
+        "label": "horizontal",
+        "ap": 26.753740464162412
+      }
+    ]
+  },
+  "affordances": {
+    "mean_ap": 28.608571416627917,
+    "valid_labels": 164,
+    "total_labels": 170,
+    "lowest": [
+      {
+        "id": 144,
+        "label": "swim",
+        "ap": 0.025109624339761372
+      },
+      {
+        "id": 152,
+        "label": "greet",
+        "ap": 0.028763939182668535
+      },
+      {
+        "id": 166,
+        "label": "wear",
+        "ap": 0.030721966205837174
+      },
+      {
+        "id": 23,
+        "label": "dilute",
+        "ap": 0.034232422446346666
+      },
+      {
+        "id": 57,
+        "label": "melt",
+        "ap": 0.04076017928153748
+      },
+      {
+        "id": 99,
+        "label": "swing",
+        "ap": 0.08328479365591766
+      },
+      {
+        "id": 78,
+        "label": "read",
+        "ap": 0.09380878971177425
+      },
+      {
+        "id": 169,
+        "label": "wave",
+        "ap": 0.12040320954630457
+      },
+      {
+        "id": 148,
+        "label": "surf",
+        "ap": 0.18363361444401488
+      },
+      {
+        "id": 134,
+        "label": "serve",
+        "ap": 0.21060303779724598
+      }
+    ],
+    "highest": [
+      {
+        "id": 164,
+        "label": "watch",
+        "ap": 95.0689757370828
+      },
+      {
+        "id": 165,
+        "label": "watch",
+        "ap": 95.04669020822392
+      },
+      {
+        "id": 104,
+        "label": "touch",
+        "ap": 86.35988175493263
+      },
+      {
+        "id": 67,
+        "label": "photograph",
+        "ap": 84.77213615935452
+      },
+      {
+        "id": 58,
+        "label": "move",
+        "ap": 84.45276861756031
+      },
+      {
+        "id": 45,
+        "label": "inspect",
+        "ap": 82.01635711723804
+      },
+      {
+        "id": 37,
+        "label": "hit",
+        "ap": 80.42199805621853
+      },
+      {
+        "id": 24,
+        "label": "drag",
+        "ap": 75.22425202700393
+      },
+      {
+        "id": 84,
+        "label": "shoot",
+        "ap": 72.94234373588165
+      },
+      {
+        "id": 137,
+        "label": "smell",
+        "ap": 70.87481615444646
+      }
+    ]
+  },
+  "by_source": {
+    "COCO": {
+      "objects": 19003,
+      "attribute_map": 11.490426525039092,
+      "affordance_map": 28.58722853332687
+    },
+    "ImageNet": {
+      "objects": 1016,
+      "attribute_map": 32.75632379478283,
+      "affordance_map": 38.292966510924124
+    },
+    "from_web": {
+      "objects": 2055,
+      "attribute_map": 34.409040275022676,
+      "affordance_map": 30.451538614232685
+    }
+  },
+  "by_split": {
+    "test": {
+      "objects": 11232,
+      "attribute_map": 11.473463063069195,
+      "affordance_map": 29.298158725365717
+    },
+    "val": {
+      "objects": 10842,
+      "attribute_map": 12.758915103904474,
+      "affordance_map": 28.687603143938457
+    }
+  }
+}

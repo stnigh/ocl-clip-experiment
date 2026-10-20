@@ -1,0 +1,3506 @@
+{
+  "classes": [
+    {
+      "id": 0,
+      "label": "car",
+      "prompts": [
+        "a photo of a car.",
+        "an image of a car.",
+        "a picture of a car."
+      ]
+    },
+    {
+      "id": 1,
+      "label": "broccoli",
+      "prompts": [
+        "a photo of a broccoli.",
+        "an image of a broccoli.",
+        "a picture of a broccoli."
+      ]
+    },
+    {
+      "id": 2,
+      "label": "boat",
+      "prompts": [
+        "a photo of a boat.",
+        "an image of a boat.",
+        "a picture of a boat."
+      ]
+    },
+    {
+      "id": 3,
+      "label": "horse",
+      "prompts": [
+        "a photo of a horse.",
+        "an image of a horse.",
+        "a picture of a horse."
+      ]
+    },
+    {
+      "id": 4,
+      "label": "dog",
+      "prompts": [
+        "a photo of a dog.",
+        "an image of a dog.",
+        "a picture of a dog."
+      ]
+    },
+    {
+      "id": 5,
+      "label": "banana",
+      "prompts": [
+        "a photo of a banana.",
+        "an image of a banana.",
+        "a picture of a banana."
+      ]
+    },
+    {
+      "id": 6,
+      "label": "motorcycle",
+      "prompts": [
+        "a photo of a motorcycle.",
+        "an image of a motorcycle.",
+        "a picture of a motorcycle."
+      ]
+    },
+    {
+      "id": 7,
+      "label": "truck",
+      "prompts": [
+        "a photo of a truck.",
+        "an image of a truck.",
+        "a picture of a truck."
+      ]
+    },
+    {
+      "id": 8,
+      "label": "zebra",
+      "prompts": [
+        "a photo of a zebra.",
+        "an image of a zebra.",
+        "a picture of a zebra."
+      ]
+    },
+    {
+      "id": 9,
+      "label": "sheep",
+      "prompts": [
+        "a photo of a sheep.",
+        "an image of a sheep.",
+        "a picture of a sheep."
+      ]
+    }
+  ],
+  "attributes": [
+    {
+      "id": 0,
+      "label": "crumpled",
+      "positive": [
+        "an object that is crumpled.",
+        "an object with the property crumpled."
+      ],
+      "negative": [
+        "an object that is not crumpled.",
+        "an object without the property crumpled."
+      ]
+    },
+    {
+      "id": 1,
+      "label": "ceramic",
+      "positive": [
+        "an object that is ceramic.",
+        "an object with the property ceramic."
+      ],
+      "negative": [
+        "an object that is not ceramic.",
+        "an object without the property ceramic."
+      ]
+    },
+    {
+      "id": 2,
+      "label": "cold",
+      "positive": [
+        "an object that is cold.",
+        "an object with the property cold."
+      ],
+      "negative": [
+        "an object that is not cold.",
+        "an object without the property cold."
+      ]
+    },
+    {
+      "id": 3,
+      "label": "curled",
+      "positive": [
+        "an object that is curled.",
+        "an object with the property curled."
+      ],
+      "negative": [
+        "an object that is not curled.",
+        "an object without the property curled."
+      ]
+    },
+    {
+      "id": 4,
+      "label": "furry",
+      "positive": [
+        "an object that is furry.",
+        "an object with the property furry."
+      ],
+      "negative": [
+        "an object that is not furry.",
+        "an object without the property furry."
+      ]
+    },
+    {
+      "id": 5,
+      "label": "black",
+      "positive": [
+        "an object that is black.",
+        "an object with the property black."
+      ],
+      "negative": [
+        "an object that is not black.",
+        "an object without the property black."
+      ]
+    },
+    {
+      "id": 6,
+      "label": "wet",
+      "positive": [
+        "an object that is wet.",
+        "an object with the property wet."
+      ],
+      "negative": [
+        "an object that is not wet.",
+        "an object without the property wet."
+      ]
+    },
+    {
+      "id": 7,
+      "label": "orange",
+      "positive": [
+        "an object that is orange.",
+        "an object with the property orange."
+      ],
+      "negative": [
+        "an object that is not orange.",
+        "an object without the property orange."
+      ]
+    },
+    {
+      "id": 8,
+      "label": "brown",
+      "positive": [
+        "an object that is brown.",
+        "an object with the property brown."
+      ],
+      "negative": [
+        "an object that is not brown.",
+        "an object without the property brown."
+      ]
+    },
+    {
+      "id": 9,
+      "label": "yellow",
+      "positive": [
+        "an object that is yellow.",
+        "an object with the property yellow."
+      ],
+      "negative": [
+        "an object that is not yellow.",
+        "an object without the property yellow."
+      ]
+    },
+    {
+      "id": 10,
+      "label": "striped",
+      "positive": [
+        "an object that is striped.",
+        "an object with the property striped."
+      ],
+      "negative": [
+        "an object that is not striped.",
+        "an object without the property striped."
+      ]
+    },
+    {
+      "id": 11,
+      "label": "cool",
+      "positive": [
+        "an object that is cool.",
+        "an object with the property cool."
+      ],
+      "negative": [
+        "an object that is not cool.",
+        "an object without the property cool."
+      ]
+    },
+    {
+      "id": 12,
+      "label": "gray",
+      "positive": [
+        "an object that is gray.",
+        "an object with the property gray."
+      ],
+      "negative": [
+        "an object that is not gray.",
+        "an object without the property gray."
+      ]
+    },
+    {
+      "id": 13,
+      "label": "leather",
+      "positive": [
+        "an object that is leather.",
+        "an object with the property leather."
+      ],
+      "negative": [
+        "an object that is not leather.",
+        "an object without the property leather."
+      ]
+    },
+    {
+      "id": 14,
+      "label": "large",
+      "positive": [
+        "an object that is large.",
+        "an object with the property large."
+      ],
+      "negative": [
+        "an object that is not large.",
+        "an object without the property large."
+      ]
+    },
+    {
+      "id": 15,
+      "label": "wooden",
+      "positive": [
+        "an object that is wooden.",
+        "an object with the property wooden."
+      ],
+      "negative": [
+        "an object that is not wooden.",
+        "an object without the property wooden."
+      ]
+    },
+    {
+      "id": 16,
+      "label": "small",
+      "positive": [
+        "an object that is small.",
+        "an object with the property small."
+      ],
+      "negative": [
+        "an object that is not small.",
+        "an object without the property small."
+      ]
+    },
+    {
+      "id": 17,
+      "label": "soft",
+      "positive": [
+        "an object that is soft.",
+        "an object with the property soft."
+      ],
+      "negative": [
+        "an object that is not soft.",
+        "an object without the property soft."
+      ]
+    },
+    {
+      "id": 18,
+      "label": "round",
+      "positive": [
+        "an object that is round.",
+        "an object with the property round."
+      ],
+      "negative": [
+        "an object that is not round.",
+        "an object without the property round."
+      ]
+    },
+    {
+      "id": 19,
+      "label": "old",
+      "positive": [
+        "an object that is old.",
+        "an object with the property old."
+      ],
+      "negative": [
+        "an object that is not old.",
+        "an object without the property old."
+      ]
+    },
+    {
+      "id": 20,
+      "label": "portable",
+      "positive": [
+        "an object that is portable.",
+        "an object with the property portable."
+      ],
+      "negative": [
+        "an object that is not portable.",
+        "an object without the property portable."
+      ]
+    },
+    {
+      "id": 21,
+      "label": "fluffy",
+      "positive": [
+        "an object that is fluffy.",
+        "an object with the property fluffy."
+      ],
+      "negative": [
+        "an object that is not fluffy.",
+        "an object without the property fluffy."
+      ]
+    },
+    {
+      "id": 22,
+      "label": "hard",
+      "positive": [
+        "an object that is hard.",
+        "an object with the property hard."
+      ],
+      "negative": [
+        "an object that is not hard.",
+        "an object without the property hard."
+      ]
+    },
+    {
+      "id": 23,
+      "label": "horn",
+      "positive": [
+        "an object that is horn.",
+        "an object with the property horn."
+      ],
+      "negative": [
+        "an object that is not horn.",
+        "an object without the property horn."
+      ]
+    },
+    {
+      "id": 24,
+      "label": "messy",
+      "positive": [
+        "an object that is messy.",
+        "an object with the property messy."
+      ],
+      "negative": [
+        "an object that is not messy.",
+        "an object without the property messy."
+      ]
+    },
+    {
+      "id": 25,
+      "label": "heavy",
+      "positive": [
+        "an object that is heavy.",
+        "an object with the property heavy."
+      ],
+      "negative": [
+        "an object that is not heavy.",
+        "an object without the property heavy."
+      ]
+    },
+    {
+      "id": 26,
+      "label": "blue",
+      "positive": [
+        "an object that is blue.",
+        "an object with the property blue."
+      ],
+      "negative": [
+        "an object that is not blue.",
+        "an object without the property blue."
+      ]
+    },
+    {
+      "id": 27,
+      "label": "purple",
+      "positive": [
+        "an object that is purple.",
+        "an object with the property purple."
+      ],
+      "negative": [
+        "an object that is not purple.",
+        "an object without the property purple."
+      ]
+    },
+    {
+      "id": 28,
+      "label": "closed",
+      "positive": [
+        "an object that is closed.",
+        "an object with the property closed."
+      ],
+      "negative": [
+        "an object that is not closed.",
+        "an object without the property closed."
+      ]
+    },
+    {
+      "id": 29,
+      "label": "new",
+      "positive": [
+        "an object that is new.",
+        "an object with the property new."
+      ],
+      "negative": [
+        "an object that is not new.",
+        "an object without the property new."
+      ]
+    },
+    {
+      "id": 30,
+      "label": "red",
+      "positive": [
+        "an object that is red.",
+        "an object with the property red."
+      ],
+      "negative": [
+        "an object that is not red.",
+        "an object without the property red."
+      ]
+    },
+    {
+      "id": 31,
+      "label": "thin",
+      "positive": [
+        "an object that is thin.",
+        "an object with the property thin."
+      ],
+      "negative": [
+        "an object that is not thin.",
+        "an object without the property thin."
+      ]
+    },
+    {
+      "id": 32,
+      "label": "full",
+      "positive": [
+        "an object that is full.",
+        "an object with the property full."
+      ],
+      "negative": [
+        "an object that is not full.",
+        "an object without the property full."
+      ]
+    },
+    {
+      "id": 33,
+      "label": "vertical",
+      "positive": [
+        "an object that is vertical.",
+        "an object with the property vertical."
+      ],
+      "negative": [
+        "an object that is not vertical.",
+        "an object without the property vertical."
+      ]
+    },
+    {
+      "id": 34,
+      "label": "strong",
+      "positive": [
+        "an object that is strong.",
+        "an object with the property strong."
+      ],
+      "negative": [
+        "an object that is not strong.",
+        "an object without the property strong."
+      ]
+    },
+    {
+      "id": 35,
+      "label": "dry",
+      "positive": [
+        "an object that is dry.",
+        "an object with the property dry."
+      ],
+      "negative": [
+        "an object that is not dry.",
+        "an object without the property dry."
+      ]
+    },
+    {
+      "id": 36,
+      "label": "spotted",
+      "positive": [
+        "an object that is spotted.",
+        "an object with the property spotted."
+      ],
+      "negative": [
+        "an object that is not spotted.",
+        "an object without the property spotted."
+      ]
+    },
+    {
+      "id": 37,
+      "label": "quadruped",
+      "positive": [
+        "an object that is quadruped.",
+        "an object with the property quadruped."
+      ],
+      "negative": [
+        "an object that is not quadruped.",
+        "an object without the property quadruped."
+      ]
+    },
+    {
+      "id": 38,
+      "label": "whole",
+      "positive": [
+        "an object that is whole.",
+        "an object with the property whole."
+      ],
+      "negative": [
+        "an object that is not whole.",
+        "an object without the property whole."
+      ]
+    },
+    {
+      "id": 39,
+      "label": "sharp",
+      "positive": [
+        "an object that is sharp.",
+        "an object with the property sharp."
+      ],
+      "negative": [
+        "an object that is not sharp.",
+        "an object without the property sharp."
+      ]
+    },
+    {
+      "id": 40,
+      "label": "long",
+      "positive": [
+        "an object that is long.",
+        "an object with the property long."
+      ],
+      "negative": [
+        "an object that is not long.",
+        "an object without the property long."
+      ]
+    },
+    {
+      "id": 41,
+      "label": "fake",
+      "positive": [
+        "an object that is fake.",
+        "an object with the property fake."
+      ],
+      "negative": [
+        "an object that is not fake.",
+        "an object without the property fake."
+      ]
+    },
+    {
+      "id": 42,
+      "label": "open",
+      "positive": [
+        "an object that is open.",
+        "an object with the property open."
+      ],
+      "negative": [
+        "an object that is not open.",
+        "an object without the property open."
+      ]
+    },
+    {
+      "id": 43,
+      "label": "toy",
+      "positive": [
+        "an object that is toy.",
+        "an object with the property toy."
+      ],
+      "negative": [
+        "an object that is not toy.",
+        "an object without the property toy."
+      ]
+    },
+    {
+      "id": 44,
+      "label": "plastic",
+      "positive": [
+        "an object that is plastic.",
+        "an object with the property plastic."
+      ],
+      "negative": [
+        "an object that is not plastic.",
+        "an object without the property plastic."
+      ]
+    },
+    {
+      "id": 45,
+      "label": "white",
+      "positive": [
+        "an object that is white.",
+        "an object with the property white."
+      ],
+      "negative": [
+        "an object that is not white.",
+        "an object without the property white."
+      ]
+    },
+    {
+      "id": 46,
+      "label": "columnar",
+      "positive": [
+        "an object that is columnar.",
+        "an object with the property columnar."
+      ],
+      "negative": [
+        "an object that is not columnar.",
+        "an object without the property columnar."
+      ]
+    },
+    {
+      "id": 47,
+      "label": "empty",
+      "positive": [
+        "an object that is empty.",
+        "an object with the property empty."
+      ],
+      "negative": [
+        "an object that is not empty.",
+        "an object without the property empty."
+      ]
+    },
+    {
+      "id": 48,
+      "label": "flat",
+      "positive": [
+        "an object that is flat.",
+        "an object with the property flat."
+      ],
+      "negative": [
+        "an object that is not flat.",
+        "an object without the property flat."
+      ]
+    },
+    {
+      "id": 49,
+      "label": "cloth",
+      "positive": [
+        "an object that is cloth.",
+        "an object with the property cloth."
+      ],
+      "negative": [
+        "an object that is not cloth.",
+        "an object without the property cloth."
+      ]
+    },
+    {
+      "id": 50,
+      "label": "warm",
+      "positive": [
+        "an object that is warm.",
+        "an object with the property warm."
+      ],
+      "negative": [
+        "an object that is not warm.",
+        "an object without the property warm."
+      ]
+    },
+    {
+      "id": 51,
+      "label": "leashed",
+      "positive": [
+        "an object that is leashed.",
+        "an object with the property leashed."
+      ],
+      "negative": [
+        "an object that is not leashed.",
+        "an object without the property leashed."
+      ]
+    },
+    {
+      "id": 52,
+      "label": "solid",
+      "positive": [
+        "an object that is solid.",
+        "an object with the property solid."
+      ],
+      "negative": [
+        "an object that is not solid.",
+        "an object without the property solid."
+      ]
+    },
+    {
+      "id": 53,
+      "label": "smooth",
+      "positive": [
+        "an object that is smooth.",
+        "an object with the property smooth."
+      ],
+      "negative": [
+        "an object that is not smooth.",
+        "an object without the property smooth."
+      ]
+    },
+    {
+      "id": 54,
+      "label": "worn",
+      "positive": [
+        "an object that is worn.",
+        "an object with the property worn."
+      ],
+      "negative": [
+        "an object that is not worn.",
+        "an object without the property worn."
+      ]
+    },
+    {
+      "id": 55,
+      "label": "rectangular",
+      "positive": [
+        "an object that is rectangular.",
+        "an object with the property rectangular."
+      ],
+      "negative": [
+        "an object that is not rectangular.",
+        "an object without the property rectangular."
+      ]
+    },
+    {
+      "id": 56,
+      "label": "bipedal",
+      "positive": [
+        "an object that is bipedal.",
+        "an object with the property bipedal."
+      ],
+      "negative": [
+        "an object that is not bipedal.",
+        "an object without the property bipedal."
+      ]
+    },
+    {
+      "id": 57,
+      "label": "tasty",
+      "positive": [
+        "an object that is tasty.",
+        "an object with the property tasty."
+      ],
+      "negative": [
+        "an object that is not tasty.",
+        "an object without the property tasty."
+      ]
+    },
+    {
+      "id": 58,
+      "label": "curved",
+      "positive": [
+        "an object that is curved.",
+        "an object with the property curved."
+      ],
+      "negative": [
+        "an object that is not curved.",
+        "an object without the property curved."
+      ]
+    },
+    {
+      "id": 59,
+      "label": "pink",
+      "positive": [
+        "an object that is pink.",
+        "an object with the property pink."
+      ],
+      "negative": [
+        "an object that is not pink.",
+        "an object without the property pink."
+      ]
+    },
+    {
+      "id": 60,
+      "label": "hot",
+      "positive": [
+        "an object that is hot.",
+        "an object with the property hot."
+      ],
+      "negative": [
+        "an object that is not hot.",
+        "an object without the property hot."
+      ]
+    },
+    {
+      "id": 61,
+      "label": "digital",
+      "positive": [
+        "an object that is digital.",
+        "an object with the property digital."
+      ],
+      "negative": [
+        "an object that is not digital.",
+        "an object without the property digital."
+      ]
+    },
+    {
+      "id": 62,
+      "label": "electric",
+      "positive": [
+        "an object that is electric.",
+        "an object with the property electric."
+      ],
+      "negative": [
+        "an object that is not electric.",
+        "an object without the property electric."
+      ]
+    },
+    {
+      "id": 63,
+      "label": "fresh",
+      "positive": [
+        "an object that is fresh.",
+        "an object with the property fresh."
+      ],
+      "negative": [
+        "an object that is not fresh.",
+        "an object without the property fresh."
+      ]
+    },
+    {
+      "id": 64,
+      "label": "horizontal",
+      "positive": [
+        "an object that is horizontal.",
+        "an object with the property horizontal."
+      ],
+      "negative": [
+        "an object that is not horizontal.",
+        "an object without the property horizontal."
+      ]
+    },
+    {
+      "id": 65,
+      "label": "short",
+      "positive": [
+        "an object that is short.",
+        "an object with the property short."
+      ],
+      "negative": [
+        "an object that is not short.",
+        "an object without the property short."
+      ]
+    },
+    {
+      "id": 66,
+      "label": "natural",
+      "positive": [
+        "an object that is natural.",
+        "an object with the property natural."
+      ],
+      "negative": [
+        "an object that is not natural.",
+        "an object without the property natural."
+      ]
+    },
+    {
+      "id": 67,
+      "label": "metal",
+      "positive": [
+        "an object that is metal.",
+        "an object with the property metal."
+      ],
+      "negative": [
+        "an object that is not metal.",
+        "an object without the property metal."
+      ]
+    },
+    {
+      "id": 68,
+      "label": "cooked",
+      "positive": [
+        "an object that is cooked.",
+        "an object with the property cooked."
+      ],
+      "negative": [
+        "an object that is not cooked.",
+        "an object without the property cooked."
+      ]
+    },
+    {
+      "id": 69,
+      "label": "green",
+      "positive": [
+        "an object that is green.",
+        "an object with the property green."
+      ],
+      "negative": [
+        "an object that is not green.",
+        "an object without the property green."
+      ]
+    },
+    {
+      "id": 70,
+      "label": "folded",
+      "positive": [
+        "an object that is folded.",
+        "an object with the property folded."
+      ],
+      "negative": [
+        "an object that is not folded.",
+        "an object without the property folded."
+      ]
+    },
+    {
+      "id": 71,
+      "label": "broken",
+      "positive": [
+        "an object that is broken.",
+        "an object with the property broken."
+      ],
+      "negative": [
+        "an object that is not broken.",
+        "an object without the property broken."
+      ]
+    },
+    {
+      "id": 72,
+      "label": "bent",
+      "positive": [
+        "an object that is bent.",
+        "an object with the property bent."
+      ],
+      "negative": [
+        "an object that is not bent.",
+        "an object without the property bent."
+      ]
+    },
+    {
+      "id": 73,
+      "label": "sliced",
+      "positive": [
+        "an object that is sliced.",
+        "an object with the property sliced."
+      ],
+      "negative": [
+        "an object that is not sliced.",
+        "an object without the property sliced."
+      ]
+    },
+    {
+      "id": 74,
+      "label": "thick",
+      "positive": [
+        "an object that is thick.",
+        "an object with the property thick."
+      ],
+      "negative": [
+        "an object that is not thick.",
+        "an object without the property thick."
+      ]
+    },
+    {
+      "id": 75,
+      "label": "wide",
+      "positive": [
+        "an object that is wide.",
+        "an object with the property wide."
+      ],
+      "negative": [
+        "an object that is not wide.",
+        "an object without the property wide."
+      ]
+    },
+    {
+      "id": 76,
+      "label": "narrow",
+      "positive": [
+        "an object that is narrow.",
+        "an object with the property narrow."
+      ],
+      "negative": [
+        "an object that is not narrow.",
+        "an object without the property narrow."
+      ]
+    },
+    {
+      "id": 77,
+      "label": "arched",
+      "positive": [
+        "an object that is arched.",
+        "an object with the property arched."
+      ],
+      "negative": [
+        "an object that is not arched.",
+        "an object without the property arched."
+      ]
+    },
+    {
+      "id": 78,
+      "label": "puffy",
+      "positive": [
+        "an object that is puffy.",
+        "an object with the property puffy."
+      ],
+      "negative": [
+        "an object that is not puffy.",
+        "an object without the property puffy."
+      ]
+    },
+    {
+      "id": 79,
+      "label": "cream",
+      "positive": [
+        "an object that is cream.",
+        "an object with the property cream."
+      ],
+      "negative": [
+        "an object that is not cream.",
+        "an object without the property cream."
+      ]
+    },
+    {
+      "id": 80,
+      "label": "stone",
+      "positive": [
+        "an object that is stone.",
+        "an object with the property stone."
+      ],
+      "negative": [
+        "an object that is not stone.",
+        "an object without the property stone."
+      ]
+    },
+    {
+      "id": 81,
+      "label": "cement",
+      "positive": [
+        "an object that is cement.",
+        "an object with the property cement."
+      ],
+      "negative": [
+        "an object that is not cement.",
+        "an object without the property cement."
+      ]
+    },
+    {
+      "id": 82,
+      "label": "marble",
+      "positive": [
+        "an object that is marble.",
+        "an object with the property marble."
+      ],
+      "negative": [
+        "an object that is not marble.",
+        "an object without the property marble."
+      ]
+    },
+    {
+      "id": 83,
+      "label": "floral",
+      "positive": [
+        "an object that is floral.",
+        "an object with the property floral."
+      ],
+      "negative": [
+        "an object that is not floral.",
+        "an object without the property floral."
+      ]
+    },
+    {
+      "id": 84,
+      "label": "glass",
+      "positive": [
+        "an object that is glass.",
+        "an object with the property glass."
+      ],
+      "negative": [
+        "an object that is not glass.",
+        "an object without the property glass."
+      ]
+    },
+    {
+      "id": 85,
+      "label": "water",
+      "positive": [
+        "an object that is water.",
+        "an object with the property water."
+      ],
+      "negative": [
+        "an object that is not water.",
+        "an object without the property water."
+      ]
+    },
+    {
+      "id": 86,
+      "label": "rubber",
+      "positive": [
+        "an object that is rubber.",
+        "an object with the property rubber."
+      ],
+      "negative": [
+        "an object that is not rubber.",
+        "an object without the property rubber."
+      ]
+    },
+    {
+      "id": 87,
+      "label": "brick",
+      "positive": [
+        "an object that is brick.",
+        "an object with the property brick."
+      ],
+      "negative": [
+        "an object that is not brick.",
+        "an object without the property brick."
+      ]
+    },
+    {
+      "id": 88,
+      "label": "sandy",
+      "positive": [
+        "an object that is sandy.",
+        "an object with the property sandy."
+      ],
+      "negative": [
+        "an object that is not sandy.",
+        "an object without the property sandy."
+      ]
+    },
+    {
+      "id": 89,
+      "label": "plaid",
+      "positive": [
+        "an object that is plaid.",
+        "an object with the property plaid."
+      ],
+      "negative": [
+        "an object that is not plaid.",
+        "an object without the property plaid."
+      ]
+    },
+    {
+      "id": 90,
+      "label": "paper",
+      "positive": [
+        "an object that is paper.",
+        "an object with the property paper."
+      ],
+      "negative": [
+        "an object that is not paper.",
+        "an object without the property paper."
+      ]
+    },
+    {
+      "id": 91,
+      "label": "checkered",
+      "positive": [
+        "an object that is checkered.",
+        "an object with the property checkered."
+      ],
+      "negative": [
+        "an object that is not checkered.",
+        "an object without the property checkered."
+      ]
+    },
+    {
+      "id": 92,
+      "label": "parked",
+      "positive": [
+        "an object that is parked.",
+        "an object with the property parked."
+      ],
+      "negative": [
+        "an object that is not parked.",
+        "an object without the property parked."
+      ]
+    },
+    {
+      "id": 93,
+      "label": "moving",
+      "positive": [
+        "an object that is moving.",
+        "an object with the property moving."
+      ],
+      "negative": [
+        "an object that is not moving.",
+        "an object without the property moving."
+      ]
+    },
+    {
+      "id": 94,
+      "label": "melted",
+      "positive": [
+        "an object that is melted.",
+        "an object with the property melted."
+      ],
+      "negative": [
+        "an object that is not melted.",
+        "an object without the property melted."
+      ]
+    },
+    {
+      "id": 95,
+      "label": "lit",
+      "positive": [
+        "an object that is lit.",
+        "an object with the property lit."
+      ],
+      "negative": [
+        "an object that is not lit.",
+        "an object without the property lit."
+      ]
+    },
+    {
+      "id": 96,
+      "label": "wearing",
+      "positive": [
+        "an object that is wearing.",
+        "an object with the property wearing."
+      ],
+      "negative": [
+        "an object that is not wearing.",
+        "an object without the property wearing."
+      ]
+    },
+    {
+      "id": 97,
+      "label": "framed",
+      "positive": [
+        "an object that is framed.",
+        "an object with the property framed."
+      ],
+      "negative": [
+        "an object that is not framed.",
+        "an object without the property framed."
+      ]
+    },
+    {
+      "id": 98,
+      "label": "stacked",
+      "positive": [
+        "an object that is stacked.",
+        "an object with the property stacked."
+      ],
+      "negative": [
+        "an object that is not stacked.",
+        "an object without the property stacked."
+      ]
+    },
+    {
+      "id": 99,
+      "label": "tiled",
+      "positive": [
+        "an object that is tiled.",
+        "an object with the property tiled."
+      ],
+      "negative": [
+        "an object that is not tiled.",
+        "an object without the property tiled."
+      ]
+    },
+    {
+      "id": 100,
+      "label": "standing",
+      "positive": [
+        "an object that is standing.",
+        "an object with the property standing."
+      ],
+      "negative": [
+        "an object that is not standing.",
+        "an object without the property standing."
+      ]
+    },
+    {
+      "id": 101,
+      "label": "hanging",
+      "positive": [
+        "an object that is hanging.",
+        "an object with the property hanging."
+      ],
+      "negative": [
+        "an object that is not hanging.",
+        "an object without the property hanging."
+      ]
+    },
+    {
+      "id": 102,
+      "label": "sitting",
+      "positive": [
+        "an object that is sitting.",
+        "an object with the property sitting."
+      ],
+      "negative": [
+        "an object that is not sitting.",
+        "an object without the property sitting."
+      ]
+    },
+    {
+      "id": 103,
+      "label": "walking",
+      "positive": [
+        "an object that is walking.",
+        "an object with the property walking."
+      ],
+      "negative": [
+        "an object that is not walking.",
+        "an object without the property walking."
+      ]
+    },
+    {
+      "id": 104,
+      "label": "sleeping",
+      "positive": [
+        "an object that is sleeping.",
+        "an object with the property sleeping."
+      ],
+      "negative": [
+        "an object that is not sleeping.",
+        "an object without the property sleeping."
+      ]
+    },
+    {
+      "id": 105,
+      "label": "flying",
+      "positive": [
+        "an object that is flying.",
+        "an object with the property flying."
+      ],
+      "negative": [
+        "an object that is not flying.",
+        "an object without the property flying."
+      ]
+    },
+    {
+      "id": 106,
+      "label": "dead",
+      "positive": [
+        "an object that is dead.",
+        "an object with the property dead."
+      ],
+      "negative": [
+        "an object that is not dead.",
+        "an object without the property dead."
+      ]
+    },
+    {
+      "id": 107,
+      "label": "ripe",
+      "positive": [
+        "an object that is ripe.",
+        "an object with the property ripe."
+      ],
+      "negative": [
+        "an object that is not ripe.",
+        "an object without the property ripe."
+      ]
+    },
+    {
+      "id": 108,
+      "label": "in the picture",
+      "positive": [
+        "an object that is in the picture.",
+        "an object with the property in the picture."
+      ],
+      "negative": [
+        "an object that is not in the picture.",
+        "an object without the property in the picture."
+      ]
+    },
+    {
+      "id": 109,
+      "label": "reflective",
+      "positive": [
+        "an object that is reflective.",
+        "an object with the property reflective."
+      ],
+      "negative": [
+        "an object that is not reflective.",
+        "an object without the property reflective."
+      ]
+    },
+    {
+      "id": 110,
+      "label": "grassy",
+      "positive": [
+        "an object that is grassy.",
+        "an object with the property grassy."
+      ],
+      "negative": [
+        "an object that is not grassy.",
+        "an object without the property grassy."
+      ]
+    },
+    {
+      "id": 111,
+      "label": "leafy",
+      "positive": [
+        "an object that is leafy.",
+        "an object with the property leafy."
+      ],
+      "negative": [
+        "an object that is not leafy.",
+        "an object without the property leafy."
+      ]
+    },
+    {
+      "id": 112,
+      "label": "painted",
+      "positive": [
+        "an object that is painted.",
+        "an object with the property painted."
+      ],
+      "negative": [
+        "an object that is not painted.",
+        "an object without the property painted."
+      ]
+    },
+    {
+      "id": 113,
+      "label": "rusty",
+      "positive": [
+        "an object that is rusty.",
+        "an object with the property rusty."
+      ],
+      "negative": [
+        "an object that is not rusty.",
+        "an object without the property rusty."
+      ]
+    }
+  ],
+  "affordances": [
+    {
+      "id": 0,
+      "label": "aim",
+      "positive": [
+        "an object that can aim.",
+        "an object used to aim."
+      ],
+      "negative": [
+        "an object that cannot aim.",
+        "an object not used to aim."
+      ]
+    },
+    {
+      "id": 1,
+      "label": "assemble",
+      "positive": [
+        "an object that can assemble.",
+        "an object used to assemble."
+      ],
+      "negative": [
+        "an object that cannot assemble.",
+        "an object not used to assemble."
+      ]
+    },
+    {
+      "id": 2,
+      "label": "bend",
+      "positive": [
+        "an object that can bend.",
+        "an object used to bend."
+      ],
+      "negative": [
+        "an object that cannot bend.",
+        "an object not used to bend."
+      ]
+    },
+    {
+      "id": 3,
+      "label": "bend",
+      "positive": [
+        "an object that can bend.",
+        "an object used to bend."
+      ],
+      "negative": [
+        "an object that cannot bend.",
+        "an object not used to bend."
+      ]
+    },
+    {
+      "id": 4,
+      "label": "blast",
+      "positive": [
+        "an object that can blast.",
+        "an object used to blast."
+      ],
+      "negative": [
+        "an object that cannot blast.",
+        "an object not used to blast."
+      ]
+    },
+    {
+      "id": 5,
+      "label": "blow",
+      "positive": [
+        "an object that can blow.",
+        "an object used to blow."
+      ],
+      "negative": [
+        "an object that cannot blow.",
+        "an object not used to blow."
+      ]
+    },
+    {
+      "id": 6,
+      "label": "board",
+      "positive": [
+        "an object that can board.",
+        "an object used to board."
+      ],
+      "negative": [
+        "an object that cannot board.",
+        "an object not used to board."
+      ]
+    },
+    {
+      "id": 7,
+      "label": "break",
+      "positive": [
+        "an object that can break.",
+        "an object used to break."
+      ],
+      "negative": [
+        "an object that cannot break.",
+        "an object not used to break."
+      ]
+    },
+    {
+      "id": 8,
+      "label": "brush",
+      "positive": [
+        "an object that can brush.",
+        "an object used to brush."
+      ],
+      "negative": [
+        "an object that cannot brush.",
+        "an object not used to brush."
+      ]
+    },
+    {
+      "id": 9,
+      "label": "buy",
+      "positive": [
+        "an object that can buy.",
+        "an object used to buy."
+      ],
+      "negative": [
+        "an object that cannot buy.",
+        "an object not used to buy."
+      ]
+    },
+    {
+      "id": 10,
+      "label": "capture",
+      "positive": [
+        "an object that can capture.",
+        "an object used to capture."
+      ],
+      "negative": [
+        "an object that cannot capture.",
+        "an object not used to capture."
+      ]
+    },
+    {
+      "id": 11,
+      "label": "carry",
+      "positive": [
+        "an object that can carry.",
+        "an object used to carry."
+      ],
+      "negative": [
+        "an object that cannot carry.",
+        "an object not used to carry."
+      ]
+    },
+    {
+      "id": 12,
+      "label": "catch",
+      "positive": [
+        "an object that can catch.",
+        "an object used to catch."
+      ],
+      "negative": [
+        "an object that cannot catch.",
+        "an object not used to catch."
+      ]
+    },
+    {
+      "id": 13,
+      "label": "catch",
+      "positive": [
+        "an object that can catch.",
+        "an object used to catch."
+      ],
+      "negative": [
+        "an object that cannot catch.",
+        "an object not used to catch."
+      ]
+    },
+    {
+      "id": 14,
+      "label": "chase",
+      "positive": [
+        "an object that can chase.",
+        "an object used to chase."
+      ],
+      "negative": [
+        "an object that cannot chase.",
+        "an object not used to chase."
+      ]
+    },
+    {
+      "id": 15,
+      "label": "check",
+      "positive": [
+        "an object that can check.",
+        "an object used to check."
+      ],
+      "negative": [
+        "an object that cannot check.",
+        "an object not used to check."
+      ]
+    },
+    {
+      "id": 16,
+      "label": "clean",
+      "positive": [
+        "an object that can clean.",
+        "an object used to clean."
+      ],
+      "negative": [
+        "an object that cannot clean.",
+        "an object not used to clean."
+      ]
+    },
+    {
+      "id": 17,
+      "label": "climb",
+      "positive": [
+        "an object that can climb.",
+        "an object used to climb."
+      ],
+      "negative": [
+        "an object that cannot climb.",
+        "an object not used to climb."
+      ]
+    },
+    {
+      "id": 18,
+      "label": "close",
+      "positive": [
+        "an object that can close.",
+        "an object used to close."
+      ],
+      "negative": [
+        "an object that cannot close.",
+        "an object not used to close."
+      ]
+    },
+    {
+      "id": 19,
+      "label": "collect",
+      "positive": [
+        "an object that can collect.",
+        "an object used to collect."
+      ],
+      "negative": [
+        "an object that cannot collect.",
+        "an object not used to collect."
+      ]
+    },
+    {
+      "id": 20,
+      "label": "cook",
+      "positive": [
+        "an object that can cook.",
+        "an object used to cook."
+      ],
+      "negative": [
+        "an object that cannot cook.",
+        "an object not used to cook."
+      ]
+    },
+    {
+      "id": 21,
+      "label": "cut",
+      "positive": [
+        "an object that can cut.",
+        "an object used to cut."
+      ],
+      "negative": [
+        "an object that cannot cut.",
+        "an object not used to cut."
+      ]
+    },
+    {
+      "id": 22,
+      "label": "decant",
+      "positive": [
+        "an object that can decant.",
+        "an object used to decant."
+      ],
+      "negative": [
+        "an object that cannot decant.",
+        "an object not used to decant."
+      ]
+    },
+    {
+      "id": 23,
+      "label": "dilute",
+      "positive": [
+        "an object that can dilute.",
+        "an object used to dilute."
+      ],
+      "negative": [
+        "an object that cannot dilute.",
+        "an object not used to dilute."
+      ]
+    },
+    {
+      "id": 24,
+      "label": "drag",
+      "positive": [
+        "an object that can drag.",
+        "an object used to drag."
+      ],
+      "negative": [
+        "an object that cannot drag.",
+        "an object not used to drag."
+      ]
+    },
+    {
+      "id": 25,
+      "label": "draw",
+      "positive": [
+        "an object that can draw.",
+        "an object used to draw."
+      ],
+      "negative": [
+        "an object that cannot draw.",
+        "an object not used to draw."
+      ]
+    },
+    {
+      "id": 26,
+      "label": "drink",
+      "positive": [
+        "an object that can drink.",
+        "an object used to drink."
+      ],
+      "negative": [
+        "an object that cannot drink.",
+        "an object not used to drink."
+      ]
+    },
+    {
+      "id": 27,
+      "label": "drive",
+      "positive": [
+        "an object that can drive.",
+        "an object used to drive."
+      ],
+      "negative": [
+        "an object that cannot drive.",
+        "an object not used to drive."
+      ]
+    },
+    {
+      "id": 28,
+      "label": "eat",
+      "positive": [
+        "an object that can eat.",
+        "an object used to eat."
+      ],
+      "negative": [
+        "an object that cannot eat.",
+        "an object not used to eat."
+      ]
+    },
+    {
+      "id": 29,
+      "label": "eat",
+      "positive": [
+        "an object that can eat.",
+        "an object used to eat."
+      ],
+      "negative": [
+        "an object that cannot eat.",
+        "an object not used to eat."
+      ]
+    },
+    {
+      "id": 30,
+      "label": "edit",
+      "positive": [
+        "an object that can edit.",
+        "an object used to edit."
+      ],
+      "negative": [
+        "an object that cannot edit.",
+        "an object not used to edit."
+      ]
+    },
+    {
+      "id": 31,
+      "label": "embrace",
+      "positive": [
+        "an object that can embrace.",
+        "an object used to embrace."
+      ],
+      "negative": [
+        "an object that cannot embrace.",
+        "an object not used to embrace."
+      ]
+    },
+    {
+      "id": 32,
+      "label": "exit",
+      "positive": [
+        "an object that can exit.",
+        "an object used to exit."
+      ],
+      "negative": [
+        "an object that cannot exit.",
+        "an object not used to exit."
+      ]
+    },
+    {
+      "id": 33,
+      "label": "feed",
+      "positive": [
+        "an object that can feed.",
+        "an object used to feed."
+      ],
+      "negative": [
+        "an object that cannot feed.",
+        "an object not used to feed."
+      ]
+    },
+    {
+      "id": 34,
+      "label": "fly",
+      "positive": [
+        "an object that can fly.",
+        "an object used to fly."
+      ],
+      "negative": [
+        "an object that cannot fly.",
+        "an object not used to fly."
+      ]
+    },
+    {
+      "id": 35,
+      "label": "function",
+      "positive": [
+        "an object that can function.",
+        "an object used to function."
+      ],
+      "negative": [
+        "an object that cannot function.",
+        "an object not used to function."
+      ]
+    },
+    {
+      "id": 36,
+      "label": "get",
+      "positive": [
+        "an object that can get.",
+        "an object used to get."
+      ],
+      "negative": [
+        "an object that cannot get.",
+        "an object not used to get."
+      ]
+    },
+    {
+      "id": 37,
+      "label": "hit",
+      "positive": [
+        "an object that can hit.",
+        "an object used to hit."
+      ],
+      "negative": [
+        "an object that cannot hit.",
+        "an object not used to hit."
+      ]
+    },
+    {
+      "id": 38,
+      "label": "hit",
+      "positive": [
+        "an object that can hit.",
+        "an object used to hit."
+      ],
+      "negative": [
+        "an object that cannot hit.",
+        "an object not used to hit."
+      ]
+    },
+    {
+      "id": 39,
+      "label": "hitch",
+      "positive": [
+        "an object that can hitch.",
+        "an object used to hitch."
+      ],
+      "negative": [
+        "an object that cannot hitch.",
+        "an object not used to hitch."
+      ]
+    },
+    {
+      "id": 40,
+      "label": "hold",
+      "positive": [
+        "an object that can hold.",
+        "an object used to hold."
+      ],
+      "negative": [
+        "an object that cannot hold.",
+        "an object not used to hold."
+      ]
+    },
+    {
+      "id": 41,
+      "label": "hold",
+      "positive": [
+        "an object that can hold.",
+        "an object used to hold."
+      ],
+      "negative": [
+        "an object that cannot hold.",
+        "an object not used to hold."
+      ]
+    },
+    {
+      "id": 42,
+      "label": "hop on",
+      "positive": [
+        "an object that can hop on.",
+        "an object used to hop on."
+      ],
+      "negative": [
+        "an object that cannot hop on.",
+        "an object not used to hop on."
+      ]
+    },
+    {
+      "id": 43,
+      "label": "ignite",
+      "positive": [
+        "an object that can ignite.",
+        "an object used to ignite."
+      ],
+      "negative": [
+        "an object that cannot ignite.",
+        "an object not used to ignite."
+      ]
+    },
+    {
+      "id": 44,
+      "label": "inject",
+      "positive": [
+        "an object that can inject.",
+        "an object used to inject."
+      ],
+      "negative": [
+        "an object that cannot inject.",
+        "an object not used to inject."
+      ]
+    },
+    {
+      "id": 45,
+      "label": "inspect",
+      "positive": [
+        "an object that can inspect.",
+        "an object used to inspect."
+      ],
+      "negative": [
+        "an object that cannot inspect.",
+        "an object not used to inspect."
+      ]
+    },
+    {
+      "id": 46,
+      "label": "install",
+      "positive": [
+        "an object that can install.",
+        "an object used to install."
+      ],
+      "negative": [
+        "an object that cannot install.",
+        "an object not used to install."
+      ]
+    },
+    {
+      "id": 47,
+      "label": "jab",
+      "positive": [
+        "an object that can jab.",
+        "an object used to jab."
+      ],
+      "negative": [
+        "an object that cannot jab.",
+        "an object not used to jab."
+      ]
+    },
+    {
+      "id": 48,
+      "label": "jump",
+      "positive": [
+        "an object that can jump.",
+        "an object used to jump."
+      ],
+      "negative": [
+        "an object that cannot jump.",
+        "an object not used to jump."
+      ]
+    },
+    {
+      "id": 49,
+      "label": "kick",
+      "positive": [
+        "an object that can kick.",
+        "an object used to kick."
+      ],
+      "negative": [
+        "an object that cannot kick.",
+        "an object not used to kick."
+      ]
+    },
+    {
+      "id": 50,
+      "label": "kick",
+      "positive": [
+        "an object that can kick.",
+        "an object used to kick."
+      ],
+      "negative": [
+        "an object that cannot kick.",
+        "an object not used to kick."
+      ]
+    },
+    {
+      "id": 51,
+      "label": "let go of",
+      "positive": [
+        "an object that can let go of.",
+        "an object used to let go of."
+      ],
+      "negative": [
+        "an object that cannot let go of.",
+        "an object not used to let go of."
+      ]
+    },
+    {
+      "id": 52,
+      "label": "lie",
+      "positive": [
+        "an object that can lie.",
+        "an object used to lie."
+      ],
+      "negative": [
+        "an object that cannot lie.",
+        "an object not used to lie."
+      ]
+    },
+    {
+      "id": 53,
+      "label": "lie",
+      "positive": [
+        "an object that can lie.",
+        "an object used to lie."
+      ],
+      "negative": [
+        "an object that cannot lie.",
+        "an object not used to lie."
+      ]
+    },
+    {
+      "id": 54,
+      "label": "lie down",
+      "positive": [
+        "an object that can lie down.",
+        "an object used to lie down."
+      ],
+      "negative": [
+        "an object that cannot lie down.",
+        "an object not used to lie down."
+      ]
+    },
+    {
+      "id": 55,
+      "label": "lift",
+      "positive": [
+        "an object that can lift.",
+        "an object used to lift."
+      ],
+      "negative": [
+        "an object that cannot lift.",
+        "an object not used to lift."
+      ]
+    },
+    {
+      "id": 56,
+      "label": "load",
+      "positive": [
+        "an object that can load.",
+        "an object used to load."
+      ],
+      "negative": [
+        "an object that cannot load.",
+        "an object not used to load."
+      ]
+    },
+    {
+      "id": 57,
+      "label": "melt",
+      "positive": [
+        "an object that can melt.",
+        "an object used to melt."
+      ],
+      "negative": [
+        "an object that cannot melt.",
+        "an object not used to melt."
+      ]
+    },
+    {
+      "id": 58,
+      "label": "move",
+      "positive": [
+        "an object that can move.",
+        "an object used to move."
+      ],
+      "negative": [
+        "an object that cannot move.",
+        "an object not used to move."
+      ]
+    },
+    {
+      "id": 59,
+      "label": "obstruct",
+      "positive": [
+        "an object that can obstruct.",
+        "an object used to obstruct."
+      ],
+      "negative": [
+        "an object that cannot obstruct.",
+        "an object not used to obstruct."
+      ]
+    },
+    {
+      "id": 60,
+      "label": "occupy",
+      "positive": [
+        "an object that can occupy.",
+        "an object used to occupy."
+      ],
+      "negative": [
+        "an object that cannot occupy.",
+        "an object not used to occupy."
+      ]
+    },
+    {
+      "id": 61,
+      "label": "open",
+      "positive": [
+        "an object that can open.",
+        "an object used to open."
+      ],
+      "negative": [
+        "an object that cannot open.",
+        "an object not used to open."
+      ]
+    },
+    {
+      "id": 62,
+      "label": "open",
+      "positive": [
+        "an object that can open.",
+        "an object used to open."
+      ],
+      "negative": [
+        "an object that cannot open.",
+        "an object not used to open."
+      ]
+    },
+    {
+      "id": 63,
+      "label": "operate",
+      "positive": [
+        "an object that can operate.",
+        "an object used to operate."
+      ],
+      "negative": [
+        "an object that cannot operate.",
+        "an object not used to operate."
+      ]
+    },
+    {
+      "id": 64,
+      "label": "pack",
+      "positive": [
+        "an object that can pack.",
+        "an object used to pack."
+      ],
+      "negative": [
+        "an object that cannot pack.",
+        "an object not used to pack."
+      ]
+    },
+    {
+      "id": 65,
+      "label": "paint",
+      "positive": [
+        "an object that can paint.",
+        "an object used to paint."
+      ],
+      "negative": [
+        "an object that cannot paint.",
+        "an object not used to paint."
+      ]
+    },
+    {
+      "id": 66,
+      "label": "pare",
+      "positive": [
+        "an object that can pare.",
+        "an object used to pare."
+      ],
+      "negative": [
+        "an object that cannot pare.",
+        "an object not used to pare."
+      ]
+    },
+    {
+      "id": 67,
+      "label": "photograph",
+      "positive": [
+        "an object that can photograph.",
+        "an object used to photograph."
+      ],
+      "negative": [
+        "an object that cannot photograph.",
+        "an object not used to photograph."
+      ]
+    },
+    {
+      "id": 68,
+      "label": "pick",
+      "positive": [
+        "an object that can pick.",
+        "an object used to pick."
+      ],
+      "negative": [
+        "an object that cannot pick.",
+        "an object not used to pick."
+      ]
+    },
+    {
+      "id": 69,
+      "label": "plow",
+      "positive": [
+        "an object that can plow.",
+        "an object used to plow."
+      ],
+      "negative": [
+        "an object that cannot plow.",
+        "an object not used to plow."
+      ]
+    },
+    {
+      "id": 70,
+      "label": "produce",
+      "positive": [
+        "an object that can produce.",
+        "an object used to produce."
+      ],
+      "negative": [
+        "an object that cannot produce.",
+        "an object not used to produce."
+      ]
+    },
+    {
+      "id": 71,
+      "label": "pull",
+      "positive": [
+        "an object that can pull.",
+        "an object used to pull."
+      ],
+      "negative": [
+        "an object that cannot pull.",
+        "an object not used to pull."
+      ]
+    },
+    {
+      "id": 72,
+      "label": "push",
+      "positive": [
+        "an object that can push.",
+        "an object used to push."
+      ],
+      "negative": [
+        "an object that cannot push.",
+        "an object not used to push."
+      ]
+    },
+    {
+      "id": 73,
+      "label": "push",
+      "positive": [
+        "an object that can push.",
+        "an object used to push."
+      ],
+      "negative": [
+        "an object that cannot push.",
+        "an object not used to push."
+      ]
+    },
+    {
+      "id": 74,
+      "label": "put",
+      "positive": [
+        "an object that can put.",
+        "an object used to put."
+      ],
+      "negative": [
+        "an object that cannot put.",
+        "an object not used to put."
+      ]
+    },
+    {
+      "id": 75,
+      "label": "race",
+      "positive": [
+        "an object that can race.",
+        "an object used to race."
+      ],
+      "negative": [
+        "an object that cannot race.",
+        "an object not used to race."
+      ]
+    },
+    {
+      "id": 76,
+      "label": "raise",
+      "positive": [
+        "an object that can raise.",
+        "an object used to raise."
+      ],
+      "negative": [
+        "an object that cannot raise.",
+        "an object not used to raise."
+      ]
+    },
+    {
+      "id": 77,
+      "label": "reach",
+      "positive": [
+        "an object that can reach.",
+        "an object used to reach."
+      ],
+      "negative": [
+        "an object that cannot reach.",
+        "an object not used to reach."
+      ]
+    },
+    {
+      "id": 78,
+      "label": "read",
+      "positive": [
+        "an object that can read.",
+        "an object used to read."
+      ],
+      "negative": [
+        "an object that cannot read.",
+        "an object not used to read."
+      ]
+    },
+    {
+      "id": 79,
+      "label": "rend",
+      "positive": [
+        "an object that can rend.",
+        "an object used to rend."
+      ],
+      "negative": [
+        "an object that cannot rend.",
+        "an object not used to rend."
+      ]
+    },
+    {
+      "id": 80,
+      "label": "repair",
+      "positive": [
+        "an object that can repair.",
+        "an object used to repair."
+      ],
+      "negative": [
+        "an object that cannot repair.",
+        "an object not used to repair."
+      ]
+    },
+    {
+      "id": 81,
+      "label": "ride",
+      "positive": [
+        "an object that can ride.",
+        "an object used to ride."
+      ],
+      "negative": [
+        "an object that cannot ride.",
+        "an object not used to ride."
+      ]
+    },
+    {
+      "id": 82,
+      "label": "ride",
+      "positive": [
+        "an object that can ride.",
+        "an object used to ride."
+      ],
+      "negative": [
+        "an object that cannot ride.",
+        "an object not used to ride."
+      ]
+    },
+    {
+      "id": 83,
+      "label": "score",
+      "positive": [
+        "an object that can score.",
+        "an object used to score."
+      ],
+      "negative": [
+        "an object that cannot score.",
+        "an object not used to score."
+      ]
+    },
+    {
+      "id": 84,
+      "label": "shoot",
+      "positive": [
+        "an object that can shoot.",
+        "an object used to shoot."
+      ],
+      "negative": [
+        "an object that cannot shoot.",
+        "an object not used to shoot."
+      ]
+    },
+    {
+      "id": 85,
+      "label": "shoot",
+      "positive": [
+        "an object that can shoot.",
+        "an object used to shoot."
+      ],
+      "negative": [
+        "an object that cannot shoot.",
+        "an object not used to shoot."
+      ]
+    },
+    {
+      "id": 86,
+      "label": "sign",
+      "positive": [
+        "an object that can sign.",
+        "an object used to sign."
+      ],
+      "negative": [
+        "an object that cannot sign.",
+        "an object not used to sign."
+      ]
+    },
+    {
+      "id": 87,
+      "label": "sit",
+      "positive": [
+        "an object that can sit.",
+        "an object used to sit."
+      ],
+      "negative": [
+        "an object that cannot sit.",
+        "an object not used to sit."
+      ]
+    },
+    {
+      "id": 88,
+      "label": "sit",
+      "positive": [
+        "an object that can sit.",
+        "an object used to sit."
+      ],
+      "negative": [
+        "an object that cannot sit.",
+        "an object not used to sit."
+      ]
+    },
+    {
+      "id": 89,
+      "label": "slide",
+      "positive": [
+        "an object that can slide.",
+        "an object used to slide."
+      ],
+      "negative": [
+        "an object that cannot slide.",
+        "an object not used to slide."
+      ]
+    },
+    {
+      "id": 90,
+      "label": "smoke",
+      "positive": [
+        "an object that can smoke.",
+        "an object used to smoke."
+      ],
+      "negative": [
+        "an object that cannot smoke.",
+        "an object not used to smoke."
+      ]
+    },
+    {
+      "id": 91,
+      "label": "spin",
+      "positive": [
+        "an object that can spin.",
+        "an object used to spin."
+      ],
+      "negative": [
+        "an object that cannot spin.",
+        "an object not used to spin."
+      ]
+    },
+    {
+      "id": 92,
+      "label": "squeeze",
+      "positive": [
+        "an object that can squeeze.",
+        "an object used to squeeze."
+      ],
+      "negative": [
+        "an object that cannot squeeze.",
+        "an object not used to squeeze."
+      ]
+    },
+    {
+      "id": 93,
+      "label": "stand",
+      "positive": [
+        "an object that can stand.",
+        "an object used to stand."
+      ],
+      "negative": [
+        "an object that cannot stand.",
+        "an object not used to stand."
+      ]
+    },
+    {
+      "id": 94,
+      "label": "stand",
+      "positive": [
+        "an object that can stand.",
+        "an object used to stand."
+      ],
+      "negative": [
+        "an object that cannot stand.",
+        "an object not used to stand."
+      ]
+    },
+    {
+      "id": 95,
+      "label": "stand",
+      "positive": [
+        "an object that can stand.",
+        "an object used to stand."
+      ],
+      "negative": [
+        "an object that cannot stand.",
+        "an object not used to stand."
+      ]
+    },
+    {
+      "id": 96,
+      "label": "steer",
+      "positive": [
+        "an object that can steer.",
+        "an object used to steer."
+      ],
+      "negative": [
+        "an object that cannot steer.",
+        "an object not used to steer."
+      ]
+    },
+    {
+      "id": 97,
+      "label": "sweep",
+      "positive": [
+        "an object that can sweep.",
+        "an object used to sweep."
+      ],
+      "negative": [
+        "an object that cannot sweep.",
+        "an object not used to sweep."
+      ]
+    },
+    {
+      "id": 98,
+      "label": "swerve",
+      "positive": [
+        "an object that can swerve.",
+        "an object used to swerve."
+      ],
+      "negative": [
+        "an object that cannot swerve.",
+        "an object not used to swerve."
+      ]
+    },
+    {
+      "id": 99,
+      "label": "swing",
+      "positive": [
+        "an object that can swing.",
+        "an object used to swing."
+      ],
+      "negative": [
+        "an object that cannot swing.",
+        "an object not used to swing."
+      ]
+    },
+    {
+      "id": 100,
+      "label": "switch off",
+      "positive": [
+        "an object that can switch off.",
+        "an object used to switch off."
+      ],
+      "negative": [
+        "an object that cannot switch off.",
+        "an object not used to switch off."
+      ]
+    },
+    {
+      "id": 101,
+      "label": "throw",
+      "positive": [
+        "an object that can throw.",
+        "an object used to throw."
+      ],
+      "negative": [
+        "an object that cannot throw.",
+        "an object not used to throw."
+      ]
+    },
+    {
+      "id": 102,
+      "label": "tie",
+      "positive": [
+        "an object that can tie.",
+        "an object used to tie."
+      ],
+      "negative": [
+        "an object that cannot tie.",
+        "an object not used to tie."
+      ]
+    },
+    {
+      "id": 103,
+      "label": "toast",
+      "positive": [
+        "an object that can toast.",
+        "an object used to toast."
+      ],
+      "negative": [
+        "an object that cannot toast.",
+        "an object not used to toast."
+      ]
+    },
+    {
+      "id": 104,
+      "label": "touch",
+      "positive": [
+        "an object that can touch.",
+        "an object used to touch."
+      ],
+      "negative": [
+        "an object that cannot touch.",
+        "an object not used to touch."
+      ]
+    },
+    {
+      "id": 105,
+      "label": "transport",
+      "positive": [
+        "an object that can transport.",
+        "an object used to transport."
+      ],
+      "negative": [
+        "an object that cannot transport.",
+        "an object not used to transport."
+      ]
+    },
+    {
+      "id": 106,
+      "label": "turn",
+      "positive": [
+        "an object that can turn.",
+        "an object used to turn."
+      ],
+      "negative": [
+        "an object that cannot turn.",
+        "an object not used to turn."
+      ]
+    },
+    {
+      "id": 107,
+      "label": "turn",
+      "positive": [
+        "an object that can turn.",
+        "an object used to turn."
+      ],
+      "negative": [
+        "an object that cannot turn.",
+        "an object not used to turn."
+      ]
+    },
+    {
+      "id": 108,
+      "label": "turn",
+      "positive": [
+        "an object that can turn.",
+        "an object used to turn."
+      ],
+      "negative": [
+        "an object that cannot turn.",
+        "an object not used to turn."
+      ]
+    },
+    {
+      "id": 109,
+      "label": "unfold",
+      "positive": [
+        "an object that can unfold.",
+        "an object used to unfold."
+      ],
+      "negative": [
+        "an object that cannot unfold.",
+        "an object not used to unfold."
+      ]
+    },
+    {
+      "id": 110,
+      "label": "walk",
+      "positive": [
+        "an object that can walk.",
+        "an object used to walk."
+      ],
+      "negative": [
+        "an object that cannot walk.",
+        "an object not used to walk."
+      ]
+    },
+    {
+      "id": 111,
+      "label": "wash",
+      "positive": [
+        "an object that can wash.",
+        "an object used to wash."
+      ],
+      "negative": [
+        "an object that cannot wash.",
+        "an object not used to wash."
+      ]
+    },
+    {
+      "id": 112,
+      "label": "wash",
+      "positive": [
+        "an object that can wash.",
+        "an object used to wash."
+      ],
+      "negative": [
+        "an object that cannot wash.",
+        "an object not used to wash."
+      ]
+    },
+    {
+      "id": 113,
+      "label": "work",
+      "positive": [
+        "an object that can work.",
+        "an object used to work."
+      ],
+      "negative": [
+        "an object that cannot work.",
+        "an object not used to work."
+      ]
+    },
+    {
+      "id": 114,
+      "label": "write",
+      "positive": [
+        "an object that can write.",
+        "an object used to write."
+      ],
+      "negative": [
+        "an object that cannot write.",
+        "an object not used to write."
+      ]
+    },
+    {
+      "id": 115,
+      "label": "write",
+      "positive": [
+        "an object that can write.",
+        "an object used to write."
+      ],
+      "negative": [
+        "an object that cannot write.",
+        "an object not used to write."
+      ]
+    },
+    {
+      "id": 116,
+      "label": "adjust",
+      "positive": [
+        "an object that can adjust.",
+        "an object used to adjust."
+      ],
+      "negative": [
+        "an object that cannot adjust.",
+        "an object not used to adjust."
+      ]
+    },
+    {
+      "id": 117,
+      "label": "flip",
+      "positive": [
+        "an object that can flip.",
+        "an object used to flip."
+      ],
+      "negative": [
+        "an object that cannot flip.",
+        "an object not used to flip."
+      ]
+    },
+    {
+      "id": 118,
+      "label": "flush",
+      "positive": [
+        "an object that can flush.",
+        "an object used to flush."
+      ],
+      "negative": [
+        "an object that cannot flush.",
+        "an object not used to flush."
+      ]
+    },
+    {
+      "id": 119,
+      "label": "grind",
+      "positive": [
+        "an object that can grind.",
+        "an object used to grind."
+      ],
+      "negative": [
+        "an object that cannot grind.",
+        "an object not used to grind."
+      ]
+    },
+    {
+      "id": 120,
+      "label": "groom",
+      "positive": [
+        "an object that can groom.",
+        "an object used to groom."
+      ],
+      "negative": [
+        "an object that cannot groom.",
+        "an object not used to groom."
+      ]
+    },
+    {
+      "id": 121,
+      "label": "herd",
+      "positive": [
+        "an object that can herd.",
+        "an object used to herd."
+      ],
+      "negative": [
+        "an object that cannot herd.",
+        "an object not used to herd."
+      ]
+    },
+    {
+      "id": 122,
+      "label": "hose",
+      "positive": [
+        "an object that can hose.",
+        "an object used to hose."
+      ],
+      "negative": [
+        "an object that cannot hose.",
+        "an object not used to hose."
+      ]
+    },
+    {
+      "id": 123,
+      "label": "jump",
+      "positive": [
+        "an object that can jump.",
+        "an object used to jump."
+      ],
+      "negative": [
+        "an object that cannot jump.",
+        "an object not used to jump."
+      ]
+    },
+    {
+      "id": 124,
+      "label": "lasso",
+      "positive": [
+        "an object that can lasso.",
+        "an object used to lasso."
+      ],
+      "negative": [
+        "an object that cannot lasso.",
+        "an object not used to lasso."
+      ]
+    },
+    {
+      "id": 125,
+      "label": "launch",
+      "positive": [
+        "an object that can launch.",
+        "an object used to launch."
+      ],
+      "negative": [
+        "an object that cannot launch.",
+        "an object not used to launch."
+      ]
+    },
+    {
+      "id": 126,
+      "label": "lick",
+      "positive": [
+        "an object that can lick.",
+        "an object used to lick."
+      ],
+      "negative": [
+        "an object that cannot lick.",
+        "an object not used to lick."
+      ]
+    },
+    {
+      "id": 127,
+      "label": "milk",
+      "positive": [
+        "an object that can milk.",
+        "an object used to milk."
+      ],
+      "negative": [
+        "an object that cannot milk.",
+        "an object not used to milk."
+      ]
+    },
+    {
+      "id": 128,
+      "label": "park",
+      "positive": [
+        "an object that can park.",
+        "an object used to park."
+      ],
+      "negative": [
+        "an object that cannot park.",
+        "an object not used to park."
+      ]
+    },
+    {
+      "id": 129,
+      "label": "pay",
+      "positive": [
+        "an object that can pay.",
+        "an object used to pay."
+      ],
+      "negative": [
+        "an object that cannot pay.",
+        "an object not used to pay."
+      ]
+    },
+    {
+      "id": 130,
+      "label": "pet",
+      "positive": [
+        "an object that can pet.",
+        "an object used to pet."
+      ],
+      "negative": [
+        "an object that cannot pet.",
+        "an object not used to pet."
+      ]
+    },
+    {
+      "id": 131,
+      "label": "point",
+      "positive": [
+        "an object that can point.",
+        "an object used to point."
+      ],
+      "negative": [
+        "an object that cannot point.",
+        "an object not used to point."
+      ]
+    },
+    {
+      "id": 132,
+      "label": "row",
+      "positive": [
+        "an object that can row.",
+        "an object used to row."
+      ],
+      "negative": [
+        "an object that cannot row.",
+        "an object not used to row."
+      ]
+    },
+    {
+      "id": 133,
+      "label": "run",
+      "positive": [
+        "an object that can run.",
+        "an object used to run."
+      ],
+      "negative": [
+        "an object that cannot run.",
+        "an object not used to run."
+      ]
+    },
+    {
+      "id": 134,
+      "label": "serve",
+      "positive": [
+        "an object that can serve.",
+        "an object used to serve."
+      ],
+      "negative": [
+        "an object that cannot serve.",
+        "an object not used to serve."
+      ]
+    },
+    {
+      "id": 135,
+      "label": "shear",
+      "positive": [
+        "an object that can shear.",
+        "an object used to shear."
+      ],
+      "negative": [
+        "an object that cannot shear.",
+        "an object not used to shear."
+      ]
+    },
+    {
+      "id": 136,
+      "label": "sip",
+      "positive": [
+        "an object that can sip.",
+        "an object used to sip."
+      ],
+      "negative": [
+        "an object that cannot sip.",
+        "an object not used to sip."
+      ]
+    },
+    {
+      "id": 137,
+      "label": "smell",
+      "positive": [
+        "an object that can smell.",
+        "an object used to smell."
+      ],
+      "negative": [
+        "an object that cannot smell.",
+        "an object not used to smell."
+      ]
+    },
+    {
+      "id": 138,
+      "label": "stick",
+      "positive": [
+        "an object that can stick.",
+        "an object used to stick."
+      ],
+      "negative": [
+        "an object that cannot stick.",
+        "an object not used to stick."
+      ]
+    },
+    {
+      "id": 139,
+      "label": "stir",
+      "positive": [
+        "an object that can stir.",
+        "an object used to stir."
+      ],
+      "negative": [
+        "an object that cannot stir.",
+        "an object not used to stir."
+      ]
+    },
+    {
+      "id": 140,
+      "label": "straddle",
+      "positive": [
+        "an object that can straddle.",
+        "an object used to straddle."
+      ],
+      "negative": [
+        "an object that cannot straddle.",
+        "an object not used to straddle."
+      ]
+    },
+    {
+      "id": 141,
+      "label": "text on",
+      "positive": [
+        "an object that can text on.",
+        "an object used to text on."
+      ],
+      "negative": [
+        "an object that cannot text on.",
+        "an object not used to text on."
+      ]
+    },
+    {
+      "id": 142,
+      "label": "type on",
+      "positive": [
+        "an object that can type on.",
+        "an object used to type on."
+      ],
+      "negative": [
+        "an object that cannot type on.",
+        "an object not used to type on."
+      ]
+    },
+    {
+      "id": 143,
+      "label": "zip",
+      "positive": [
+        "an object that can zip.",
+        "an object used to zip."
+      ],
+      "negative": [
+        "an object that cannot zip.",
+        "an object not used to zip."
+      ]
+    },
+    {
+      "id": 144,
+      "label": "swim",
+      "positive": [
+        "an object that can swim.",
+        "an object used to swim."
+      ],
+      "negative": [
+        "an object that cannot swim.",
+        "an object not used to swim."
+      ]
+    },
+    {
+      "id": 145,
+      "label": "talk on phone",
+      "positive": [
+        "an object that can talk on phone.",
+        "an object used to talk on phone."
+      ],
+      "negative": [
+        "an object that cannot talk on phone.",
+        "an object not used to talk on phone."
+      ]
+    },
+    {
+      "id": 146,
+      "label": "work on computer",
+      "positive": [
+        "an object that can work on computer.",
+        "an object used to work on computer."
+      ],
+      "negative": [
+        "an object that cannot work on computer.",
+        "an object not used to work on computer."
+      ]
+    },
+    {
+      "id": 147,
+      "label": "ski",
+      "positive": [
+        "an object that can ski.",
+        "an object used to ski."
+      ],
+      "negative": [
+        "an object that cannot ski.",
+        "an object not used to ski."
+      ]
+    },
+    {
+      "id": 148,
+      "label": "surf",
+      "positive": [
+        "an object that can surf.",
+        "an object used to surf."
+      ],
+      "negative": [
+        "an object that cannot surf.",
+        "an object not used to surf."
+      ]
+    },
+    {
+      "id": 149,
+      "label": "skateboard",
+      "positive": [
+        "an object that can skateboard.",
+        "an object used to skateboard."
+      ],
+      "negative": [
+        "an object that cannot skateboard.",
+        "an object not used to skateboard."
+      ]
+    },
+    {
+      "id": 150,
+      "label": "dry",
+      "positive": [
+        "an object that can dry.",
+        "an object used to dry."
+      ],
+      "negative": [
+        "an object that cannot dry.",
+        "an object not used to dry."
+      ]
+    },
+    {
+      "id": 151,
+      "label": "fly",
+      "positive": [
+        "an object that can fly.",
+        "an object used to fly."
+      ],
+      "negative": [
+        "an object that cannot fly.",
+        "an object not used to fly."
+      ]
+    },
+    {
+      "id": 152,
+      "label": "greet",
+      "positive": [
+        "an object that can greet.",
+        "an object used to greet."
+      ],
+      "negative": [
+        "an object that cannot greet.",
+        "an object not used to greet."
+      ]
+    },
+    {
+      "id": 153,
+      "label": "hunt",
+      "positive": [
+        "an object that can hunt.",
+        "an object used to hunt."
+      ],
+      "negative": [
+        "an object that cannot hunt.",
+        "an object not used to hunt."
+      ]
+    },
+    {
+      "id": 154,
+      "label": "launch",
+      "positive": [
+        "an object that can launch.",
+        "an object used to launch."
+      ],
+      "negative": [
+        "an object that cannot launch.",
+        "an object not used to launch."
+      ]
+    },
+    {
+      "id": 155,
+      "label": "lose",
+      "positive": [
+        "an object that can lose.",
+        "an object used to lose."
+      ],
+      "negative": [
+        "an object that cannot lose.",
+        "an object not used to lose."
+      ]
+    },
+    {
+      "id": 156,
+      "label": "prepare",
+      "positive": [
+        "an object that can prepare.",
+        "an object used to prepare."
+      ],
+      "negative": [
+        "an object that cannot prepare.",
+        "an object not used to prepare."
+      ]
+    },
+    {
+      "id": 157,
+      "label": "rub",
+      "positive": [
+        "an object that can rub.",
+        "an object used to rub."
+      ],
+      "negative": [
+        "an object that cannot rub.",
+        "an object not used to rub."
+      ]
+    },
+    {
+      "id": 158,
+      "label": "set up",
+      "positive": [
+        "an object that can set up.",
+        "an object used to set up."
+      ],
+      "negative": [
+        "an object that cannot set up.",
+        "an object not used to set up."
+      ]
+    },
+    {
+      "id": 159,
+      "label": "snog",
+      "positive": [
+        "an object that can snog.",
+        "an object used to snog."
+      ],
+      "negative": [
+        "an object that cannot snog.",
+        "an object not used to snog."
+      ]
+    },
+    {
+      "id": 160,
+      "label": "stop",
+      "positive": [
+        "an object that can stop.",
+        "an object used to stop."
+      ],
+      "negative": [
+        "an object that cannot stop.",
+        "an object not used to stop."
+      ]
+    },
+    {
+      "id": 161,
+      "label": "talk",
+      "positive": [
+        "an object that can talk.",
+        "an object used to talk."
+      ],
+      "negative": [
+        "an object that cannot talk.",
+        "an object not used to talk."
+      ]
+    },
+    {
+      "id": 162,
+      "label": "teach",
+      "positive": [
+        "an object that can teach.",
+        "an object used to teach."
+      ],
+      "negative": [
+        "an object that cannot teach.",
+        "an object not used to teach."
+      ]
+    },
+    {
+      "id": 163,
+      "label": "walk",
+      "positive": [
+        "an object that can walk.",
+        "an object used to walk."
+      ],
+      "negative": [
+        "an object that cannot walk.",
+        "an object not used to walk."
+      ]
+    },
+    {
+      "id": 164,
+      "label": "watch",
+      "positive": [
+        "an object that can watch.",
+        "an object used to watch."
+      ],
+      "negative": [
+        "an object that cannot watch.",
+        "an object not used to watch."
+      ]
+    },
+    {
+      "id": 165,
+      "label": "watch",
+      "positive": [
+        "an object that can watch.",
+        "an object used to watch."
+      ],
+      "negative": [
+        "an object that cannot watch.",
+        "an object not used to watch."
+      ]
+    },
+    {
+      "id": 166,
+      "label": "wear",
+      "positive": [
+        "an object that can wear.",
+        "an object used to wear."
+      ],
+      "negative": [
+        "an object that cannot wear.",
+        "an object not used to wear."
+      ]
+    },
+    {
+      "id": 167,
+      "label": "wield",
+      "positive": [
+        "an object that can wield.",
+        "an object used to wield."
+      ],
+      "negative": [
+        "an object that cannot wield.",
+        "an object not used to wield."
+      ]
+    },
+    {
+      "id": 168,
+      "label": "tag",
+      "positive": [
+        "an object that can tag.",
+        "an object used to tag."
+      ],
+      "negative": [
+        "an object that cannot tag.",
+        "an object not used to tag."
+      ]
+    },
+    {
+      "id": 169,
+      "label": "wave",
+      "positive": [
+        "an object that can wave.",
+        "an object used to wave."
+      ],
+      "negative": [
+        "an object that cannot wave.",
+        "an object not used to wave."
+      ]
+    }
+  ]
+}
